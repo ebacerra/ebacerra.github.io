@@ -1,0 +1,100 @@
+body {
+    background-image: linear-gradient(to bottom right,blue, rgb(101, 169, 214), white,rgb(52, 150, 189),  blue);
+}
+
+nav {
+    
+}
+.ThirdCol{
+    
+    background-color: rgb(47, 149, 191);
+    align-content: center;
+    text-align: center;
+    /* width: 90px; */
+    height: 350px;
+    /* grid-column-gap: 20px; */
+}
+
+.FourthCol{
+    background-color: aliceblue;
+    align-content: left;
+    text-align: center;
+    /* width: 100px; */
+    height: 400px;
+    /* grid-column-gap: 20px; */
+}
+
+.firstCol{
+    
+    background-color: rgb(47, 149, 191);
+    align-content: center;
+    width: 100px;
+    height: 300px;
+}
+
+.secondCol{
+    background-color:rgb(47, 149, 191);
+    align-content: left;
+    width: 100px;
+    height: 300px;
+}
+
+.container {
+    
+}
+.MediaPlayer{
+    text-align: center;
+    background-color:rgb(47, 149, 191);
+    position: absolute;
+
+
+}
+div.play{
+    position: absolute;
+    left: 229px;
+    color: #8c8a8a;
+    top: 415px;
+}
+div.back{
+    position: absolute;
+    left: 153px;
+    color: #8c8a8a;
+    top: 415px;
+}
+div.next{
+    position: absolute;
+    left: 308px;
+    color: #8c8a8a;
+    top: 416px;
+}
+div.like{
+    position: absolute;
+    left: 18px;
+    color: #5b49f5;
+    top: 421px;
+}
+
+.PL{
+    align-content: center;
+    position: absolute;
+    left: 627px;
+}
+
+.list{
+    align-content: center;
+    position: absolute;
+    left: 95px;
+    top: 30px;
+    
+}
+
+@media (max-width:360px){
+    body {
+      width: 100%;
+    }
+
+
+@media (max-width:780px){
+    body {
+      width: 100%;
+    }
